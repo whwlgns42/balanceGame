@@ -3,7 +3,7 @@ package model.user;
 public class UserDTO {
 	private int uid;
 	private String id;
-	private int pw;
+	private String pw;
 	private String name;
 	private String grade;
 	private String gender;
@@ -31,10 +31,10 @@ public class UserDTO {
 	public void setId(String id) {
 		this.id = id;
 	}
-	public int getPw() {
+	public String getPw() {
 		return pw;
 	}
-	public void setPw(int pw) {
+	public void setPw(String pw) {
 		this.pw = pw;
 	}
 	public String getName() {

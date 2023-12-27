@@ -1,4 +1,4 @@
-package model;
+package model.UserComment;
 
 public class UserCommentDAO {
 

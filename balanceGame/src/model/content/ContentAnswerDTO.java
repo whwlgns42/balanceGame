@@ -1,6 +1,6 @@
 package model.content;
 
-public class ContentanswerDTO {
+public class ContentAnswerDTO {
 	
 	private int idx;
     private int user_idx; // User 테이블의 idx를 참조
