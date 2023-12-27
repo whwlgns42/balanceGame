@@ -4,7 +4,7 @@ public class QuestionDTO {
 	private int qid;
 	private String content_A;
     private String content_B;
-    private int writer; // 이 경우, 작성자는 User 테이블의 idx 컬럼을 참조할 수 있습니다.
+    private String writer; // 이 경우, 작성자는 User 테이블의 idx 컬럼을 참조할 수 있습니다.
 //    private Date reg_date;
     
 	public int getQid() {
@@ -25,10 +25,10 @@ public class QuestionDTO {
 	public void setContent_B(String content_B) {
 		this.content_B = content_B;
 	}
-	public int getWriter() {
+	public String getWriter() {
 		return writer;
 	}
-	public void setWriter(int writer) {
+	public void setWriter(String writer) {
 		this.writer = writer;
 	}
 //	public Date getReg_date() {
